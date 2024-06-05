@@ -1,6 +1,6 @@
 ﻿using HashidsNet;
 
-namespace Autofac;
+namespace VictorKrogh.Extensions.HashidsNet;
 
 public interface IHashIdService
 {
