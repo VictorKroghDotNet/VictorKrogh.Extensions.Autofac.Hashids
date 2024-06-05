@@ -7,6 +7,20 @@
 		<RootNamespace>Autofac</RootNamespace>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
+		<BuildNumber Condition="'$(BuildNumber)' == ''">0</BuildNumber>
+		<PackageVersion>8.0.$(BuildNumber)-dev-build</PackageVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<BuildNumber Condition="'$(BuildNumber)' == ''">0</BuildNumber>
+		<PackageVersion>8.0.$(BuildNumber)</PackageVersion>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageProjectUrl>https://github.com/VictorKroghDotNet/VictorKrogh.Extensions.Autofac.Hashids</PackageProjectUrl>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<PackageReference Include="Autofac" Version="8.0.0" />
 		<PackageReference Include="Hashids.net" Version="1.7.0" />
