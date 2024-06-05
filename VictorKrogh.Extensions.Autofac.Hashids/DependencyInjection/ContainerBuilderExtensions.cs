@@ -1,4 +1,5 @@
 ﻿using HashidsNet;
+using VictorKrogh.Extensions.HashidsNet;
 
 namespace Autofac.Extensions.DependencyInjection;
 
