@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictorKrogh.Extensions.Autofac.Hashids", "VictorKrogh.Extensions.Autofac.Hashids\VictorKrogh.Extensions.Autofac.Hashids.csproj", "{94DFE62E-F68F-4A1B-BB21-6CF0BDD73BFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94DFE62E-F68F-4A1B-BB21-6CF0BDD73BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DFE62E-F68F-4A1B-BB21-6CF0BDD73BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DFE62E-F68F-4A1B-BB21-6CF0BDD73BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DFE62E-F68F-4A1B-BB21-6CF0BDD73BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E82F8AAE-42A7-4AB1-BEEE-1AA919E8498E}
+	EndGlobalSection
+EndGlobal
